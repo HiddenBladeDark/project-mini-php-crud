@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+body{
+   background-image:url('../../Assets/img/MOUNT.jpg');
+   background-size: 150%;
+}
+
+#header{
+    width:90%;
+    height: auto;
+    background:transparent;
+    margin: 0px auto;
+    
+}
+
+#Logo{
+    float:left;
+    width:640px;
+    height:120px; 
+}
+
+#Logo a{
+font-family:fantasy;
+font-size: 59px;
+letter-spacing: 4px;
+ color:#1963FF;
+transition: all 1000ms;
+text-shadow: 0px 0px 0px black, 1px 1px 0px black, 2px 2px 0px black;
+line-height: 90px;
+}
+
+#Logo a:hover{
+    cursor: pointer;
+    text-shadow: 0px 2px 0px black, -1px -1px 0px black, -2px 2px 0px black;
+}
+
+
+
+#menus{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, #f1f1f1 0px, #e9e9e9 100%);
+    border-radius: 10px;
+    border:1px solid #838283;
+}
+#menus ul{
+    list-style: none;
+}
+#menus ul li{
+    float: left;
+    line-height: 40px;
+    border-right: 1px solid #838283;
+}
+#menus ul li:hover{
+    background:linear-gradient(to bottom, #f2f2f2 0px, #dad9d4 100%);
+    border-radius: 10px;
+}
+
+#menus ul li a{
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color:#838283;
+}
+
+#container{
+      width:90%;
+      height: auto;
+   /* min-height:auto; */
+    margin-top:40px;    
+    margin-bottom:0px;
+}
+
+
+#sidebar{
+    float: right;
+    width:25%;
+   height: auto;
+}
+
+.fechas{
+    color:#4e4e4e;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+.block-aside{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    background: white;
+    padding :   20px;
+    box-shadow: 0px 0px 1px rgba(9.8, 38.8, 100);
+    
+}
+label
+input[type="text"],
+input[type='email'],
+input[type='password']{
+    display: block;
+    width: 95%;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+input[type="text"],
+input[type='email'],
+input[type='password']{
+    
+}
+
+
+input[type="button"],
+input[type="submit"],
+.boton{
+    color: white !important;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    display:block;
+    border-radius: 2px;
+    color:white;
+    background: #007ee5;
+    border: 1px solid #155DC1;
+    cursor: pointer;
+    padding:5px; 
+}
+
+.boton{
+    width: 130px;
+    text-align: center;   
+}
+
+.boton-naranja{
+    color: white !important;
+    background: orange;
+    border-color: #bd7d08;
+}
+.boton-verde{
+    color: white !important;
+    background: #21b921;
+    border-color: green;
+}
+.boton-azul{
+    color: white !important;
+     background: #007ee5;
+     border-color: #151FC1;
+}
+.boton-rojo{
+    color: white !important;
+    background: firebrick;
+    border-color: maroon;
+}
+
+#principal{
+    float: left;
+    width: 60%;
+    min-height: 600px;
+    background:white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-left: 100px;
+    padding: 20px;
+    overflow: hidden; //ocultar si se sale
+}
+
+.alertaerrores{
+    padding: 5px;
+    font-size: 15px;
+    color:white;
+    background: red;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+.alerta-exito
+{
+      padding: 5px;
+    font-size: 15px;
+    color:white;
+    background: green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-top:5px; 
+    margin-bottom: 14px;
+    border-radius: 4px;
+        text-align: center;
+}
+.alerta-error{
+     padding: 5px;
+    font-size: 15px;
+    color:white;
+    background: red;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#principal h1{
+    font-size: 30px;
+    color:#151FC1;
+    letter-spacing:1px;
+    font-family:fantasy;
+}
+
+#principal a{
+        color:black;
+
+}
+
+#principal h2{
+    font-size: 30px;
+    color:#155DC1;
+    letter-spacing:1px;
+    font-family:fantasy;
+    margin-top: 30px;
+}
+#principal p{
+    margin-top: 10px;
+}
+#vertodas a{
+    display:block;
+    border-radius: 2px;
+    padding: 4px;
+    color:white;
+    background: #007ee5;
+    border: 1px solid #155DC1;
+    cursor: pointer;
+    width: 160px;
+    margin:0px auto;
+    
+}
+
+#pie{
+    clear: both;
+    width: 85%;
+    margin: 0px auto;
+    background: linear-gradient(to bottom, #f9f9f9 0px, #e9e9e9 100%);
+    border: 1px solid #c9c9c9;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    color:#666;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+
